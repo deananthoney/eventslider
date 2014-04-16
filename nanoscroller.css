@@ -1,9 +1,21 @@
 /***Nano ***/
+
+body {
+background-color: #000;
+}
+
+
+.event-dates .content{
+
+}
+
+
+
 .nano {
 height: 100%;
 overflow: hidden;
 position: relative;
-width: 100%;
+width: 300px;
 }
 .nano .content {
 bottom: 0;
@@ -13,6 +25,8 @@ overflow-y: scroll;
 position: absolute;
 right: 0;
 top: 0;
+
+
 }
 .nano .content:focus {
 outline: thin dotted;
@@ -40,10 +54,73 @@ height: 586px;
 }
 .nano .content {
 padding: 10px;
+background-color: #181F34;
 }
 .nano .pane {
 background: none repeat scroll 0 0 #181F34;
 }
 .nano .slider {
 background: none repeat scroll 0 0 #D5041E;
+}
+
+.section1 {
+border-top: 1px solid #5B5D61;
+float: right;
+margin-bottom: 10px;
+padding: 15px 0;
+width: 95%;
+}
+
+/****Dates *********/
+.competition_mont b {
+font-weight: bold !important;
+}
+
+
+.competition_date {
+color: #D5041E;
+float: left;
+font-size: 60px;
+height: auto;
+padding-top: 15px;
+width: 30%;
+font-family: Arial;
+}
+.competition_mont {
+color: #FFFFFF;
+float: right;
+font-family: 'Arial';
+font-size: 13px;
+height: auto;
+width: 60%;
+}
+
+/***
+.right_section {
+background: none repeat scroll 0 0 #0C0F16;
+float: left;
+height: auto;
+margin-bottom: 40px;
+margin-top: -10px;
+}***/
+
+
+.event-dates {
+float: left;
+height: 586px;
+}
+
+
+.social {
+left: 730px;
+position: absolute;
+top: 700px;
+}
+h1, h2, h3, h4, h5, h6 {
+color: #444444;
+font-weight: 300;
+line-height: 1.15538em;
+padding-bottom: 0.273em;
+padding-top: 0.273em;
+text-rendering: optimizelegibility;
 }
